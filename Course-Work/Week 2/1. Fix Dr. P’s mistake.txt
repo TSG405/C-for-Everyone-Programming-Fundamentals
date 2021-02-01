@@ -1,0 +1,17 @@
+#include<stdio.h>
+#define PI 3.141592653589793238
+
+int main(void)
+{ 
+ 	
+  int radius;
+ 	printf("Enter radius:");
+ 	scanf("%d", &radius);
+	printf("volume is : %lf \n\n", (4.00/3)*(radius*radius*radius)*PI);
+	return 0;
+  
+}
+
+
+
+~ TSG405, 2021
