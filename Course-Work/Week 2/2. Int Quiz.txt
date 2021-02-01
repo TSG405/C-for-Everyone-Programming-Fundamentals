@@ -1,0 +1,50 @@
+***********************
+WEEK-2 QUIZ:   Int Quiz
+***********************
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+1.  #include <stdio.h>   
+    int main(void) 
+    {
+    
+      int  miles = 26, yards = 385;
+      int kilometers;
+      kilometers = 1.609 * (miles + yards/1760.0);
+      printf("\nA marathon is %d kilometers.\n", kilometers);
+      return 0;
+      
+    }  
+    
+    
+    Q. What does this program print, because of int kilometers?  
+    
+    I   - A marathon is 42.185969 kilometers.  
+    II  - A marathon is 42 kilometers.         <---------------------- [ANSWER]
+    III - A marathon is 43 kilometers.  
+    
+--------------------------------------------------------------------------------------------------------------------------------------------------------    
+2.  #include <stdio.h>  
+    int main(void) 
+    {
+    
+      int  miles = 26, yards = 385;
+      int kilometers;
+      kilometers = 1.609 * (miles + yards/1760.0);
+      printf("\nA marathon is %d kilometers.\n", kilometers);
+      return 0;
+    
+    }  
+    
+    
+    Q. Why do we use the format specifier %d instead of %lf?  
+    
+    I   - lf (as in %lf, not "if") is a double and the int answer would print incorrectly.    <---------------------- [ANSWER]
+    II  - We did not need double precision.  
+    III - The program would loop infinitely.
+    
+--------------------------------------------------------------------------------------------------------------------------------------------------------   
+
+
+
+~ TSG405, 2021  
