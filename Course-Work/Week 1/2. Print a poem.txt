@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(void)
+
+{   
+    
+    printf("When two bodies meet in space, \nThey pass or they collide... \nBut I suspect the darkness smiles ~ \nWhen say reveal, where an orbit hides. \n\n\n ");
+    return 0;
+
+}    
+
+
+
+~ TSG405, 2021
