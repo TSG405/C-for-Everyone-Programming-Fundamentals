@@ -1,0 +1,47 @@
+**********************************
+WEEK-3 QUIZ:  While-loop Questions
+**********************************
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+. . .
+while (i < 5)
+{
+   
+   i = i – 1;
+   printf(" i = %d", i);
+   
+}
+
+
+>>
+
+
+1. If i starts off as 2 (assume int i = 2 declared at the beginning of the code) then...
+
+   I   - printf will print: i = 2   
+   II  - printf will print: i = 5    
+   III - printf will print continuously      <---------------------- [ANSWER]
+   IV  - printf will print: 0
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------    
+2. If i starts off as 2 (assume int i = 2 declared at the beginning of the code) and the loop statement was i = i+1; printf will print ...
+
+   I   - i = 2
+   II  - i = 3 i = 4 i = 5     <---------------------- [ANSWER]
+   III - will not print     
+   IV  - 0
+   
+--------------------------------------------------------------------------------------------------------------------------------------------------------    
+3.If i starts off as 15 (assume int i = 15 declared at the beginning of the code), printf will print ... 
+
+   I   - i = 5
+   II  - i = 14     
+   III - will not print     <---------------------- [ANSWER]
+   IV  - i = 15
+   
+ --------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+
+
+~ TSG405, 2021 
